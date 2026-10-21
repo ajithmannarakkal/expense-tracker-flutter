@@ -8,11 +8,16 @@
       "version": "1.0.0+1",
       "dependencies": [
         "cupertino_icons",
+        "dartz",
+        "dio",
         "flutter",
         "flutter_bloc",
         "freezed_annotation",
+        "get_it",
         "go_router",
-        "json_annotation"
+        "injectable",
+        "json_annotation",
+        "pretty_dio_logger"
       ],
       "devDependencies": [
         "build_runner",
@@ -122,6 +127,48 @@
       "name": "cupertino_icons",
       "version": "1.0.9",
       "dependencies": []
+    },
+    {
+      "name": "pretty_dio_logger",
+      "version": "1.4.0",
+      "dependencies": [
+        "dio"
+      ]
+    },
+    {
+      "name": "dartz",
+      "version": "0.10.1",
+      "dependencies": []
+    },
+    {
+      "name": "get_it",
+      "version": "9.3.0",
+      "dependencies": [
+        "async",
+        "collection",
+        "meta"
+      ]
+    },
+    {
+      "name": "injectable",
+      "version": "3.0.0",
+      "dependencies": [
+        "get_it",
+        "meta"
+      ]
+    },
+    {
+      "name": "dio",
+      "version": "5.11.1",
+      "dependencies": [
+        "async",
+        "collection",
+        "dio_web_adapter",
+        "http_parser",
+        "meta",
+        "mime",
+        "path"
+      ]
     },
     {
       "name": "freezed_annotation",
@@ -545,6 +592,26 @@
       ]
     },
     {
+      "name": "dio_web_adapter",
+      "version": "2.2.2",
+      "dependencies": [
+        "dio",
+        "http_parser",
+        "meta",
+        "web"
+      ]
+    },
+    {
+      "name": "http_parser",
+      "version": "4.1.2",
+      "dependencies": [
+        "collection",
+        "source_span",
+        "string_scanner",
+        "typed_data"
+      ]
+    },
+    {
       "name": "material_ui",
       "version": "1.8.0",
       "dependencies": [
@@ -650,16 +717,6 @@
       "name": "web",
       "version": "1.1.1",
       "dependencies": []
-    },
-    {
-      "name": "http_parser",
-      "version": "4.1.2",
-      "dependencies": [
-        "collection",
-        "source_span",
-        "string_scanner",
-        "typed_data"
-      ]
     },
     {
       "name": "file",
