@@ -2,8 +2,8 @@ class ApiEndpoints {
   ApiEndpoints._();
 
   // Transactions
-  static const String transactions = '/transactions';
-  static const String createTransaction = '/transactions';
+  static const String transactions = '/expenses';
+  static const String createTransaction = '/expenses';
 
   // Network timeouts (milliseconds)
   static const int connectionTimeout = 15000;

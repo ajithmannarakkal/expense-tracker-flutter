@@ -9,10 +9,10 @@ class AddTransactionResponse {
     this.message,
   });
 
-  @JsonKey(name: 'Success')
+  @JsonKey(name: 'success')
   final bool? success;
 
-  @JsonKey(name: 'Message')
+  @JsonKey(name: 'message')
   final String? message;
 
   factory AddTransactionResponse.fromJson(Map<String, dynamic> json) =>

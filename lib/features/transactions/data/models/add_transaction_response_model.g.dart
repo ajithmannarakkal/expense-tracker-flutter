@@ -9,13 +9,13 @@ part of 'add_transaction_response_model.dart';
 AddTransactionResponse _$AddTransactionResponseFromJson(
   Map<String, dynamic> json,
 ) => AddTransactionResponse(
-  success: json['Success'] as bool?,
-  message: json['Message'] as String?,
+  success: json['success'] as bool?,
+  message: json['message'] as String?,
 );
 
 Map<String, dynamic> _$AddTransactionResponseToJson(
   AddTransactionResponse instance,
 ) => <String, dynamic>{
-  'Success': instance.success,
-  'Message': instance.message,
+  'success': instance.success,
+  'message': instance.message,
 };

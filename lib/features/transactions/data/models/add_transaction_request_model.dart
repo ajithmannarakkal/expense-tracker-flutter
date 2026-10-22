@@ -12,10 +12,10 @@ class AddTransactionRequest {
 
   Map<String, dynamic> toJson() => _$AddTransactionRequestToJson(this);
 
-  @JsonKey(name: 'Amount')
+  @JsonKey(name: 'amount')
   final double amount;
-  @JsonKey(name: 'Date')
+  @JsonKey(name: 'date')
   final String date;
-  @JsonKey(name: 'Remark')
+  @JsonKey(name: 'remarks')
   final String remark;
 }

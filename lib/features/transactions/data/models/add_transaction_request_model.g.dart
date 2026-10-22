@@ -9,7 +9,7 @@ part of 'add_transaction_request_model.dart';
 Map<String, dynamic> _$AddTransactionRequestToJson(
   AddTransactionRequest instance,
 ) => <String, dynamic>{
-  'Amount': instance.amount,
-  'Date': instance.date,
-  'Remark': instance.remark,
+  'amount': instance.amount,
+  'date': instance.date,
+  'remarks': instance.remark,
 };
